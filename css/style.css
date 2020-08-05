@@ -3,7 +3,7 @@
     padding: 0 px;
 
 }
-* {-webkit-font-smoothing: antialiased}
+
 
 a{
     text-decoration: inherit;
@@ -40,6 +40,7 @@ section {
     overflow: hidden;
 
 }
+/*font-family: 'Titillium Web', sans-serif;*/
 
 .clearfix{
 
@@ -539,12 +540,235 @@ margin-top: 12px;
     font-weight: 100;
 }
 
-
-.product-item{
+.product-item {
     width: 100%;
     margin-top: 10px 0 !important;
-    box-shadow: 5px 5px 20px rgba(0,0,0, 0.2);
+    box-shadow: 1px 2px 5px rgba(0,0,0, 0.1);
+    margin: 25px 5px;
+    transition: color 0.2222s ease-out;
+    cursor: pointer;
+    height: 500px;
+}
+.product-item img{
+    width: 100%;
+}
+.product-item h3 {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 37px;
+}
+.yoga-price {
+    color: #757575 !important;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.product-item:hover h3{
+    color: #6479bb;
+}
+/* =============================
+   ||      subscribe section  ||
+================================ */
+#subscribe{
+    
+}
+
+#subscribe-left{
+padding: 20px 0px 0 35px;
+
+}
+.horizontal-heading-titillium h5 {
+    color: #6479bb;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
     display: inline-block;
+}
+.horizontal-heading-titillium h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    line-height: 45px;
+    font-size: 40px;
+}
+.description-titillium {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-weight: 400;
+    color: #666666;
+    line-height: 29px;
+    padding: 10px 0;
+}
+.search-img {
+    width: 40px;
+    position: absolute;
+    top: 81%;
+    right: 12%;
+}
+
+
+
+.md-form {
+    width: 90%;
+    padding-left: 10px;
+}
+.md-form input[type=text]{
+    padding: 30px 15px;
+}
+
+
+@media (max-width:768px) and (min-width:300px) {
+   .search-img {
+    width: 40px;
+    position: absolute;
+    top: 85%;
+    right: 12%;
+}
+}​
+
+/* =============================
+   ||      latest-news  ||
+================================ */
+#latest-news{
+
+}
+#latest-news-content{
+
+}
+.latest-news-items {
+    width: 100%;
+    margin-top: 10px 0 !important;
+    box-shadow: 1px 2px 5px rgba(0,0,0, 0.1);
+    margin: 25px 5px;
+    transition: color 0.2222s ease-out;
+    cursor: pointer;
+    height: 500px;
+ 
+}
+.latest-news-items img{
+    width: 100%;
+}
+.latest-news-text{
+    margin-left: 50px;
+}
+.icons {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.icons:first-child {
+    margin-left: 0;
+}
+
+.icon-content {
+    padding-left: 5px;
+    color: #757575;
+}
+.latest-heading {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.latest-discription{
+     font-family: 'Titillium Web', sans-serif;
+      color: #757575;
+      padding: 0 5px 0 0;
+}
+
+.latest-news-items:hover h3{
+    color: #6479bb;
+}
+/* =============================
+   ||      footer section  ||
+================================ */
+#footer{
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+}
+#footer-01{
+
+}
+.footer-content{
+   width: 100%;
+}
+.footer-descriptiop{
+
+}
+.footer-descriptiop img{
+    
+}
+.footer-descriptiop p {
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 25px;
+}
+.footer-social-icon{
+    margin: 0;
+    padding: 0 1px 0px 10px;
+}
+.footer-icon{
+    display: inline-block;
+}
+.footer-icon .fab {
+    color: #ff5325;
+    padding-right: 14px;
+    font-size: 18px;
+}
+.footer-contact-us h4 {
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.contact-item {
+    list-style: none;
+    line-height: 37px;
+    padding: 0;
+    margin: 0;
+}
+.footer-links{
+    color: #fff;
+    -webkit-transition: all 450ms linear;
+    transition: all 450ms linear;
+}
+.contact-item a{
+    color:inherit;
+}
+.contact-item a:hover .footer-links{
+    color: #ff5325;
+}
+.contact-item, .fas, .fab, .far{
+    color: #ff5325;
+    padding-right: 14px;
+   
+}
+.fa-map, .fa-phone-al, .fa-envelope ,.fa-whatsapp, .fa-clock{
+ font-size: 20px;
+font-weight: 100;
+} 
+.line{
+width: 45px;
+height: 3px;
+background-color:#ff5325 ; 
+}
+.footer-heading {
+    font-size: 15px;
+    margin-left: 50px;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 23px;
+}
+.recent-post-content{
+    margin-top: 10px;
+}
+
+#footer-02{
+    padding: 24px 0;
+
+border-top: 1px solid rgba(187,221,233,.1);
+}
+.copy-right{
+color: #fff;
 }
 /* =============================
    ||      header section  ||
